@@ -1,0 +1,198 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body
+{
+    background: #f4f6f5;
+}
+a{
+    text-decoration: none;
+}
+img
+{
+   
+    height: auto;
+}
+.menu-home{
+    padding: 30px 0px 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 1999;
+    transition: 0.5s;
+   }
+   .effect-menu
+   {
+    background-image: url('../images/menu.jpg');
+    background-position-x: center;
+    background-size: cover;
+    animation-name: menuslide;
+   }
+   .home.header-sticky .display-bg
+    {background-color: #000000; 
+        -webkit-box-shadow: 0px -9px 67px 5px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px -9px 67px 5px rgba(0,0,0,0.75);
+        box-shadow: 0px -9px 67px 5px rgba(0,0,0,0.75);
+
+    }
+   .display-bg
+   {
+          background-image: url('../images/menu.jpg');
+          background-position-x: center;
+          background-size: cover;
+          animation-name: menuslide;
+          animation-duration: 0.4s;
+          padding: 10px 0px 0px 0px;
+   }
+
+   .logo{
+       text-align: center;
+       padding-bottom: 19px;
+   }
+   .nav-menu .my-ul-menu li {
+      margin: 0 2px;
+      position: relative;
+   }
+   .nav-menu .my-ul-menu li .my-nav-link{
+padding: 10px 20px;
+color: white !important;
+   }
+   
+   .nav-menu .my-ul-menu li .my-nav-link:hover{
+      background: #e11e21;
+   }
+   .my-nav-boder{
+       border: 1px solid gray;
+   }
+   .icon-bag{
+       padding-right: 10px;
+   }
+   .item-block{
+       display: block;
+   }
+   .my-cart{
+ transition: 0.6s;
+   background: #e11e21;
+   position: absolute;
+   opacity: 0;
+   width: 250px;
+   height: 100px;
+   right: 0px;
+   text-align: center;
+   margin-top: 70px;
+   visibility: hidden;
+   }
+   .item-cart{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    color: white;
+   }
+   
+   .nav-menu .my-ul-menu .cart-hover:hover .my-cart{
+      margin-top: 10px;
+      visibility: visible;
+      opacity: 1;
+    }
+    
+
+/*------------------------------------- mobile menu ----------------------------------*/
+    .overplay {
+        display: inline-block;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: rgb(0, 0, 0);
+        z-index: 1888;
+        opacity: 0.5;
+        display: none;
+    }    
+    .overplay-block
+    {
+        display: block;
+    }
+    #Mobile_menu
+    {
+            display: none;
+    }
+    .bar_menu_mobile
+    {
+display: none;
+color: white;
+text-align: right;
+/* display: inline-block;  */
+position: absolute;
+right: 30px;
+font-size: 24px;
+border: 1px solid white;
+padding: 1px 12px;
+    }
+    .Mobile_slide_menu
+    {
+            position: fixed;
+            width: 100%;
+           top: -100%; 
+           z-index: 1999;
+           transition: 0.4s;
+    }
+    .slidedown
+    {
+        top: 75px;
+    }
+    .ul-mobile-item-login
+    {
+    flex-direction: row;
+    float: right;
+    padding-right: 5px;
+    }
+    .ul-mobile-item-login li
+    {
+    margin-right: 28px;
+    }
+    .ul-mobile-item-login li a
+    {
+        
+    color: white;
+    }
+    .ul-mobile-item-login li .nav-user
+    {
+
+padding: 5px 13px;
+
+}
+    #Mobile_menu  .Mobile_slide_menu  .my-nav 
+    {
+        background: #e11e21;
+    width: 100%;
+    text-align: center;
+    }
+   #Mobile_menu  .Mobile_slide_menu  .my-nav .navbar-nav
+        {
+            flex-direction: column;
+        }
+
+    /*---------------- Keyframe animate -----------------*/
+    @keyframes  menuslide
+    {
+        from {padding-top: 30px; padding-bottom: 18px; }
+        to {padding-top: 10px; padding-bottom: 0px; }
+    }
+
+
+/*------------------------- media screen ------------------*/
+@media (max-width: 892px) {
+    .my-swiper .sl-content h3 {
+        font-size: 40px !important;
+    }
+    .my-swiper .sl-content p {
+        font-size: 16px !important;
+    }
+}
+
+@media (max-width: 680px) {
+    .my-swiper .sl-content h3 {
+        font-size: 30px !important;
+    }
+    .my-swiper .sl-content p {
+        font-size: 12px !important;
+    }
+}

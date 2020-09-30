@@ -1,0 +1,7 @@
+.bg-main
+{
+    background-image: url('../images/sl1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}

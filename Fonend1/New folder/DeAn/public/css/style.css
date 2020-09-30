@@ -1,0 +1,102 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+.menu-home{
+    padding: 30px 0px 0px;
+    position: fixed;
+    width: 100%;
+    transition: 0.5s;
+   }
+   .display-bg
+   {
+          background-image: url('../images/menu.jpg');
+          background-position-x: center;
+          background-size: cover;
+          animation-name: menuslide;
+          animation-duration: 0.5s;
+          padding-top: 15px;
+   }
+   
+   .logo{
+       text-align: center;
+       padding-bottom: 19px;
+   }
+   .my-nav{
+   
+   }
+   .nav-menu{
+   
+   }
+   .my-nav{
+   
+   }
+   .my-ul-menu{
+   
+   }
+   .my-ul-menu ul{
+   
+   }
+   .nav-menu .my-ul-menu li {
+   
+      margin: 0 2px;
+      position: relative;
+   }
+   .nav-menu .my-ul-menu li .my-nav-link{
+   
+padding: 10px 20px;
+   
+color: white !important;
+   }
+   
+   .nav-menu .my-ul-menu li .my-nav-link:hover{
+   
+      background: red;
+   }
+   .my-nav-boder{
+       border: 1px solid gray;
+   }
+   .icon-bag{
+       padding-right: 10px;
+   }
+   .item-block{
+       display: block;
+   }
+   .my-cart{
+       transition: 0.6s;
+   background: red;
+   
+   position: absolute;
+   opacity: 0;
+   width: 250px;
+   
+   height: 100px;
+   
+   right: 0px;
+   
+   text-align: center;
+   
+   margin-top: 70px;
+   }
+   .item-cart{
+    
+   position: absolute;
+   transform: translate(-50%,-50%);
+   top: 50%;
+   left: 50%;
+   width: 100%;
+   }
+   
+   .nav-menu .my-ul-menu .cart-hover:hover .my-cart{
+   
+      margin-top: 10px;
+      opacity: 1;
+    }
+    
+    
+
+
+
+    /*---------------- Keyframe animate -----------------*/
+    @keyframes  menuslide
+    {
+        from {padding-top: 38px;}
+        to {padding-top: 15px;}
+    }

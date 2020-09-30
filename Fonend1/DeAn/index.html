@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/bootstrap css/bootstrap.min.css">
+    <link rel="stylesheet" href="./public/css/swiper.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link rel="stylesheet" href="./public/css/style.css">
+    <link rel="stylesheet" href="./public/css/main.css">
+
+    <title>Document</title>
+</head>
+
+<body   class="home header-sticky ">
+    <span onclick="close_overplay()" class="overplay"></span>
+    <header>
+        <div class="menu-home">
+            <div class="logo"> <img src="./public/images/logo-4-3.png" alt="">
+            <span class="bar_menu_mobile" onclick="call_Menu()"><i class="fas fa-bars"></i></span>
+            </div>
+            <nav id="window_menu" class="navbar navbar-expand-md nav-menu navbar-light">
+                <div class="collapse navbar-collapse  my-nav " id="collapsibleNavId">
+                    <ul class="navbar-nav mx-auto mt-lg-0 my-ul-menu">
+                        <li class="nav-item active">
+                            <a class="nav-link my-nav-link" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link my-nav-link" href="#">ABOUT US</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link my-nav-link" href="#">BOOK YOUR SLOTS</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link my-nav-link" href="#">BLOG</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link my-nav-link" href="#">BUY THIS THEME</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link my-nav-link my-nav-boder" href="#">LOGIN</a>
+                        </li>
+                        <li class="nav-item active cart-hover">
+                            <a class="nav-link my-nav-link" href="#"><i class="fas fa-shopping-bag icon-bag"></i>0
+                                ITEMS</a>
+                            <div class="my-cart">
+                                <div class="item-cart">
+                                    <span class="item-icon item-block"><i
+                                            class="fas fa-shopping-bag icon-bag"></i></span>
+                                    <span class="item-title item-block">YOUR CART IS EMPTY</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div id="Mobile_menu">
+                    <nav class="Mobile_slide_menu navbar navbar-expand-md nav-menu navbar-light">
+                                <div class=" my-nav " id="collapsibleNavId">
+                                    <ul class="navbar-nav mx-auto mt-lg-0 my-ul-menu">
+                                        <li class="nav-item active">
+                                            <a class="nav-link my-nav-link" href="#">HOME</a>
+                                        </li>
+                                        <li class="nav-item active">
+                                            <a class="nav-link my-nav-link" href="#">ABOUT US</a>
+                                        </li>
+                                        <li class="nav-item active">
+                                            <a class="nav-link my-nav-link" href="#">BOOK YOUR SLOTS</a>
+                                        </li>
+                                        <li class="nav-item active">
+                                            <a class="nav-link my-nav-link" href="#">BLOG</a>
+                                        </li>
+                                        <li class="nav-item active">
+                                            <a class="nav-link my-nav-link" href="#">BUY THIS THEME</a>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                     </nav>
+                     <ul class="ul-mobile-item-login navbar-nav mx-auto mt-lg-0 my-ul-menu">
+                        <li class="nav-item active">
+                            <a class="nav-link my-nav-link my-nav-boder nav-user" href="#">LOGIN</a>
+                        </li>
+                        <li class="nav-item active cart-hover">
+                            <a class="nav-link my-nav-link " href="#"><i class="fas fa-shopping-bag icon-bag"></i>0
+                                ITEMS</a>
+                            <div class="my-cart">
+                                <div class="item-cart">
+                                    <span class="item-icon item-block"><i
+                                            class="fas fa-shopping-bag icon-bag"></i></span>
+                                    <span class="item-title item-block">YOUR CART IS EMPTY</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+             </div>
+                
+        </div>
+    </header>
+    <div id="main">
+        <div class="main-slide">
+            <div class="swiper-container my-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide bg-main" style="background-image:url(./public/images/sl1.jpg)">
+                        <div class="sl-content">
+                            <h3>MAKE YOUR SPORTS DAY </h3>
+                            <p> Book your game space with olam and enjoy your sport hours </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide bg-main" style="background-image:url(./public/images/olam-banner-1-5.jpg)">
+                        <div class="sl-content">
+                            <h3>BOOK YOUR GAME TODAY </h3>
+
+                            <p> 8000 Square feet of games area. 16 badminton courts and tennis </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-about_olam ">
+            <div class="bg-about-olam">
+                <div class="content-olam Reuse-content pd-inside">
+                    <div class="olam-block-1 Reuse-block">
+                        <h2 class="olam-h3 Reuse-h3">
+                            About Olam
+                        </h2>
+                        <div class="olam-subtitle Reuse-subtitle">Nemo enim ipsam voluptatem quia voluptas sit
+                            aspernatur</div>
+                    </div>
+                    <p class="large">
+                        Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis<br>nisl ut
+                        aliquip ex ea commodo consequat. Investigationes demonstraverunt lectores legere
+                        <br>me lius quod ii legunt saepius claritas.
+                    </p>
+
+
+                    <div class="olam-ball-img">
+                        <img src="./public/images/olam.png"  class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-Available-Slots pd-inside">
+            <div class="container">
+                <div class="Reuse-content">
+                    <div class="Reuse-block">
+                        <h2 class="Reuse-h3">
+                            Available Slots
+                        </h2>
+                        <div class="Reuse-subtitle">Nemo enim ipsam voluptatem quia voluptas sit aspernatur</div>
+                    </div>
+                    <div class="row my-row">
+                        <div class="col-md-4 my-col-4">
+                            <div class="bg-inside-col4">
+                                <div class="block-thumbnail">
+                                        <img src="./public/images/sl4.jpg" alt="">
+                                </div>
+                                <div class="block-content-small">
+                                        <div class="product-name">
+                                            <a href="">Swimming pool</a>      
+                                        </div>
+                                        <div class="product-price">
+                                            <span class="edd_price">$30.00</span>  
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4  my-col-4">
+                            <div class="bg-inside-col4">
+                                <div class="block-thumbnail">
+                                        <img src="./public/images/sl5.jpg" alt="">
+                                </div>
+                                <div class="block-content-small">
+                                        <div class="product-name">
+                                            <a href="">Tennis clay court booking</a>      
+                                        </div>
+                                        <div class="product-price">
+                                            <span class="edd_price">$30.00</span>  
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4  my-col-4">
+                            <div class="bg-inside-col4">
+                                <div class="block-thumbnail">
+                                        <img src="./public/images/sl2.jpg" alt="">
+                                </div>
+                                <div class="block-content-small">
+                                        <div class="product-name">
+                                            <a href="">Football Training posts</a>      
+                                        </div>
+                                        <div class="product-price">
+                                            <span class="edd_price">$30.00</span>  
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-4 my-col-4">
+                            <div class="bg-inside-col4">
+                                <div class="block-thumbnail">
+                                        <img src="./public/images/sl6.jpg" alt="">
+                                </div>
+                                <div class="block-content-small">
+                                        <div class="product-name">
+                                            <a href="">Basket ball court booking</a>      
+                                        </div>
+                                        <div class="product-price">
+                                            <span class="edd_price">$30.00</span>  
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4  my-col-4">
+                            <div class="bg-inside-col4">
+                                <div class="block-thumbnail">
+                                        <img src="./public/images/sl7.jpg" alt="">
+                                </div>
+                                <div class="block-content-small">
+                                        <div class="product-name">
+                                            <a href="">Table tennis Game booking</a>      
+                                        </div>
+                                        <div class="product-price">
+                                            <span class="edd_price">$30.00</span>  
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4  my-col-4">
+                            <div class="bg-inside-col4">
+                                <div class="block-thumbnail">
+                                        <img src="./public/images/sl3.jpg" alt="">
+                                </div>
+                                <div class="block-content-small">
+                                        <div class="product-name">
+                                            <a href="">Tennis Court booking</a>      
+                                        </div>
+                                        <div class="product-price">
+                                            <span class="edd_price">$30.00</span>  
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+        <div class="main-booking-trend pd-inside">
+            <div class="container">
+                    <div id="detect_scroll"  class="bk-trend-title">
+                        <h4>Sessions Booking Trend</h4>
+                    </div>
+                    <div class="row bk-trend-row">
+                            <div class="col-6  col-sm-6 col-md-6 bk-trend-col6">
+                                <div class="progress-pd">
+                                    <div class="progress-bars">
+                                        <div class="progress">
+                                            <div class="progress-bar-line" data-width="85%">
+                                            </div>
+                                        </div>
+                                        <p>Morning Session Booking</p>
+                                    </div>
+                                    <div class="progress-bars">
+                                        <div class="progress">
+                                            <div class="progress-bar-line" data-width="65%">
+                                            </div>
+                                        </div>
+                                        <p>Afternoon Session Booking</p>
+                                    </div>
+                                    <div class="progress-bars">
+                                        <div class="progress">
+                                            <div class="progress-bar-line" data-width="90%">
+                                            </div>
+                                        </div>
+                                        <p>Evening Session Booking</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-6 bk-trend-col6">
+                                <div class="img-right">
+                                    <img src="./public/images/united.png" class="img-fluid" alt="">
+                                </div>   
+                            </div>
+                    </div>
+            </div>
+        </div>
+
+    </div>
+
+<footer id="footer">
+    <div class="bg-footer" >
+            <ul>
+                <li><i class="fab fa-facebook-f"></i></li>
+                <li><i class="fab fa-youtube"></i></li>
+                <li><i class="fab fa-twitter"></i></li>
+                <li><i class="fab fa-linkedin-in"></i></li>
+                <li><i class="fab fa-pinterest-p"></i></li>
+            </ul>
+            <p>
+                ©  All Rights reserved 
+            </p>
+    </div>
+</footer>
+
+    <script src="./public/js/jquery-2.1.4.min.js"></script>
+    <script src="./public/js/swiper.min.js"></script>
+    <script src="./public/js/bootstrap js/bootstrap.min.js"> </script>
+    <script src="./public/js/sitescript.js"></script>
+</body>
+
+</html>

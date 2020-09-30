@@ -1,0 +1,259 @@
+/*----------- dÃƒÂ¹ng chung ------------*/
+.pd-inside
+{
+      padding: 7.2rem 0;
+}
+.Reuse-content
+{
+    position: relative;
+
+    text-align: center;
+}
+.Reuse-block
+{
+padding-bottom: 3.6rem;
+margin: 0 !important;
+position: relative;
+}
+.Reuse-block:after
+{
+    background: #cfcfcf;
+    content: "";
+    height: 1px;
+    width: 160px;
+    position: absolute;
+   left:0;
+   right: 0;
+   margin: 0 auto;
+   margin-top:18px;
+  
+}
+
+/*-----------------------------------*/
+.bg-main
+{
+    /* background-image: url('../images/sl1.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    background-position-x:center ;
+}
+.my-swiper .sl-content
+{
+
+position: absolute;
+
+top: 50%;
+
+width: 100%;
+
+color: white;
+
+left: 50%;
+
+transform: translate(-50%, -50%);
+
+text-align: center;
+}
+.my-swiper .sl-content h3
+{
+
+font-family: Montserrat;
+
+font-size: 60px;
+}
+.my-swiper .sl-content p
+{
+
+font-size: 22px;
+}
+
+/*---------- main about olam---------*/
+.main-about_olam
+{
+
+}
+.main-about_olam .bg-about-olam
+{
+    background-image: url(../images/png-olam.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background: white;
+} 
+
+.olam-h3
+{
+
+}
+.olam-subtitle
+{
+
+}
+
+.large
+{
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.8em;
+    text-align: center;
+    margin-top: -30px;
+}
+.olam-ball-img
+{
+
+}
+.olam-ball-img img
+{
+
+}
+
+
+/*-------------------------*/
+.my-row
+{
+
+}
+.my-col-4
+{
+    margin-bottom: 30px;
+}
+.bg-inside-col4
+{
+    background: white;
+}
+.block-thumbnail
+{
+
+overflow: hidden;
+
+}
+.block-thumbnail:hover  img
+{
+transform: scale(1.4);
+transition: 0.6s;
+}
+.block-thumbnail img
+{
+width: 100%;
+}
+.block-content-small
+{
+
+padding: 20px;
+}
+.block-content-small .product-name
+{
+
+}
+.block-content-small .product-name a
+{
+
+color: black;
+
+font-weight: bold;
+
+font-size: 21px;
+}
+.block-content-small .product-price
+{
+
+}
+.block-content-small .product-price .edd_price
+{
+    display: block;
+    color: #9c9c9c;
+}
+.main-booking-trend
+{
+    background: white;
+}
+.bk-trend-title
+{
+    padding-bottom: 6.6rem;
+}
+.bk-trend-title h4
+{
+    
+}
+.bk-trend-row
+{
+
+}
+.bk-trend-col6
+{
+
+/* background: red; */
+
+position: relative;
+}
+.progress-bars
+{
+    margin-bottom: 44px;
+}
+.progress-bars p
+{
+}
+
+.progress
+{
+
+margin-bottom: 10px;
+}
+.progress-bar-line
+{
+background: #de3939;
+transition: 0.5s;
+}
+.progress-pd
+{
+    margin-top: 50px;
+}
+
+/*-----------------footer----------*/
+#footer
+{
+    width: 100%;
+    /* height: 400px; */
+}
+.bg-footer
+{
+    background-image: url('../images/olam-banner-1.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 300px;
+    background-position-x: center;
+    text-align: center;
+    color: white;
+}
+.bg-footer ul
+{
+    
+display: flex;
+    
+flex-direction: row;
+    
+padding: 102px 0px 0px 0px;
+    
+align-items: center;
+    
+justify-content: center;
+}
+
+.bg-footer ul li
+{
+    
+color: white;
+    
+padding: 10px 25px;
+    
+list-style: none;
+}
+.bg-footer ul li i
+{
+
+}
+.bg-footer p
+{
+    
+padding-top: 45px;
+}
